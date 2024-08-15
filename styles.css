@@ -1,0 +1,86 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background: #1c1e22;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+#stopwatch {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #61dafb;
+    letter-spacing: 2px;
+}
+
+#stopwatch span {
+    display: inline-block;
+    width: 50px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #21a1f1;
+}
+
+.controls button:active {
+    background-color: #1a91d0;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#laps h3 {
+    color: #61dafb;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+#lapList li {
+    padding: 10px;
+    background: #2c2f36;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
